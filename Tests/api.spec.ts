@@ -1,4 +1,4 @@
-import { test } from './fixture';
+import { test } from '../fixture';
 
 test.describe.configure({ mode: 'parallel' });
 test.describe('API Get Tests', () => {

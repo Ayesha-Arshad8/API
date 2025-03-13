@@ -1,5 +1,5 @@
 import { request, expect } from '@playwright/test';
-import {BASE_URL} from './playwright.config';
+import {BASE_URL} from '../playwright.config';
 
 export class ApiTest {
   public async verifySuccessResponse(endpoint: string): Promise<void> {

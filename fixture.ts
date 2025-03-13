@@ -1,5 +1,5 @@
 import { test as baseTest } from '@playwright/test';
-import { ApiTest } from "./apiLogic";
+import { ApiTest } from './API-logic/getapi';
 
 export const test = baseTest.extend<
 {

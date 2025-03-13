@@ -9,6 +9,6 @@ export default defineConfig({
       'Content-Type': 'application/json',
     },
   },
-  testDir: './',
+  testDir: './Tests',
 });
  export  {BASE_URL};
