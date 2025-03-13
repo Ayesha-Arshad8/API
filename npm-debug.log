@@ -1,0 +1,367 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\ayesh\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   '@types/node'
+1 verbose cli ]
+2 info using npm@2.15.12
+3 info using node@v18.20.5
+4 verbose install initial load of C:\Users\ayesh\Desktop\Anaconda\API\package.json
+5 warn package.json API@1.0.0 No description
+6 warn package.json API@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from C:\Users\ayesh\Desktop\Anaconda\API\node_modules\@playwright\test\package.json
+8 verbose readDependencies loading dependencies from C:\Users\ayesh\Desktop\Anaconda\API\package.json
+9 silly cache add args [ '@types/node', null ]
+10 verbose cache add spec @types/node
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: '@types/node',
+11 silly cache add   scope: '@types',
+11 silly cache add   name: '@types/node',
+11 silly cache add   rawSpec: '',
+11 silly cache add   spec: 'latest',
+11 silly cache add   type: 'tag'
+11 silly cache add }
+12 silly addNamed @types/node@latest
+13 verbose addNamed "latest" is being treated as a dist-tag for @types/node
+14 info addNameTag [ '@types/node', 'latest' ]
+15 silly mapToRegistry name @types/node
+16 silly mapToRegistry scope (from package name) @types
+17 verbose mapToRegistry no registry URL found in name for scope @types
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: '@types/node',
+20 silly mapToRegistry   scope: '@types',
+20 silly mapToRegistry   name: '@types/node',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag'
+20 silly mapToRegistry }
+21 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+22 verbose addNameTag registry:https://registry.npmjs.org/@types%2fnode not in flight; fetching
+23 verbose request uri https://registry.npmjs.org/@types%2fnode
+24 verbose request no auth needed
+25 info attempt registry request try #1 at 3:38:52 pm
+26 verbose request id db39db006763797b
+27 http request GET https://registry.npmjs.org/@types%2fnode
+28 http 200 https://registry.npmjs.org/@types%2fnode
+29 verbose headers {
+29 verbose headers   date: 'Wed, 12 Mar 2025 10:38:53 GMT',
+29 verbose headers   'content-type': 'application/json',
+29 verbose headers   'transfer-encoding': 'chunked',
+29 verbose headers   connection: 'keep-alive',
+29 verbose headers   'cf-ray': '91f2aa1e8be8c225-KHI',
+29 verbose headers   'cf-cache-status': 'HIT',
+29 verbose headers   'access-control-allow-origin': '*',
+29 verbose headers   age: '51',
+29 verbose headers   'cache-control': 'public, max-age=300',
+29 verbose headers   etag: 'W/"045b6df64fc5008b7d30bbc535470e1c"',
+29 verbose headers   'last-modified': 'Sat, 08 Mar 2025 07:03:47 GMT',
+29 verbose headers   vary: 'accept-encoding, accept',
+29 verbose headers   'set-cookie': [
+29 verbose headers     '_cfuvid=lPNPTV9SbV6asXoYNE.0_6sKk1r2zIb4LrHOXc_tmco-1741775933236-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None'
+29 verbose headers   ],
+29 verbose headers   server: 'cloudflare',
+29 verbose headers   'content-encoding': 'gzip'
+29 verbose headers }
+30 silly get cb [
+30 silly get   200,
+30 silly get   {
+30 silly get     date: 'Wed, 12 Mar 2025 10:38:53 GMT',
+30 silly get     'content-type': 'application/json',
+30 silly get     'transfer-encoding': 'chunked',
+30 silly get     connection: 'keep-alive',
+30 silly get     'cf-ray': '91f2aa1e8be8c225-KHI',
+30 silly get     'cf-cache-status': 'HIT',
+30 silly get     'access-control-allow-origin': '*',
+30 silly get     age: '51',
+30 silly get     'cache-control': 'public, max-age=300',
+30 silly get     etag: 'W/"045b6df64fc5008b7d30bbc535470e1c"',
+30 silly get     'last-modified': 'Sat, 08 Mar 2025 07:03:47 GMT',
+30 silly get     vary: 'accept-encoding, accept',
+30 silly get     'set-cookie': [
+30 silly get       '_cfuvid=lPNPTV9SbV6asXoYNE.0_6sKk1r2zIb4LrHOXc_tmco-1741775933236-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None'
+30 silly get     ],
+30 silly get     server: 'cloudflare',
+30 silly get     'content-encoding': 'gzip'
+30 silly get   }
+30 silly get ]
+31 verbose get saving @types/node to C:\Users\ayesh\AppData\Local\npm-cache\registry.npmjs.org\_40types_252fnode\.cache.json
+32 verbose correctMkdir C:\Users\ayesh\AppData\Local\npm-cache correctMkdir not in flight; initializing
+33 silly addNameTag next cb for @types/node with tag latest
+34 silly addNamed @types/node@22.13.10
+35 verbose addNamed "22.13.10" is a plain semver version for @types/node
+36 silly mapToRegistry name @types/node
+37 silly mapToRegistry scope (from package name) @types
+38 verbose mapToRegistry no registry URL found in name for scope @types
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: '@types/node',
+41 silly mapToRegistry   scope: '@types',
+41 silly mapToRegistry   name: '@types/node',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag'
+41 silly mapToRegistry }
+42 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+43 verbose addRemoteTarball https://registry.npmjs.org/@types/node/-/node-22.13.10.tgz not in flight; adding
+44 verbose addRemoteTarball [
+44 verbose addRemoteTarball   'https://registry.npmjs.org/@types/node/-/node-22.13.10.tgz',
+44 verbose addRemoteTarball   'df9ea358c5ed991266becc3109dc2dc9125d77e4'
+44 verbose addRemoteTarball ]
+45 info retry fetch attempt 1 at 3:38:54 pm
+46 info attempt registry request try #1 at 3:38:54 pm
+47 http fetch GET https://registry.npmjs.org/@types/node/-/node-22.13.10.tgz
+48 http fetch 200 https://registry.npmjs.org/@types/node/-/node-22.13.10.tgz
+49 silly fetchAndShaCheck shasum df9ea358c5ed991266becc3109dc2dc9125d77e4
+50 verbose addTmpTarball C:\Users\ayesh\AppData\Local\Temp\npm-11840-d50bf616\registry.npmjs.org\_40types\node\-\node-22.13.10.tgz not in flight; adding
+51 verbose addTmpTarball already have metadata; skipping unpack for @types/node@22.13.10
+52 verbose correctMkdir C:\Users\ayesh\AppData\Local\npm-cache correctMkdir not in flight; initializing
+53 silly cache afterAdd @types/node@22.13.10
+54 verbose afterAdd C:\Users\ayesh\AppData\Local\npm-cache\@types\node\22.13.10\package\package.json not in flight; writing
+55 verbose correctMkdir C:\Users\ayesh\AppData\Local\npm-cache correctMkdir not in flight; initializing
+56 verbose afterAdd C:\Users\ayesh\AppData\Local\npm-cache\@types\node\22.13.10\package\package.json written
+57 silly install resolved [
+57 silly install resolved   {
+57 silly install resolved     name: '@types/node',
+57 silly install resolved     version: '22.13.10',
+57 silly install resolved     license: 'MIT',
+57 silly install resolved     _id: '@types/node@22.13.10',
+57 silly install resolved     maintainers: [ [Object] ],
+57 silly install resolved     contributors: [
+57 silly install resolved       [Object], [Object], [Object], [Object],
+57 silly install resolved       [Object], [Object], [Object], [Object],
+57 silly install resolved       [Object], [Object], [Object], [Object],
+57 silly install resolved       [Object], [Object], [Object], [Object],
+57 silly install resolved       [Object], [Object], [Object], [Object],
+57 silly install resolved       [Object], [Object], [Object], [Object],
+57 silly install resolved       [Object], [Object], [Object], [Object],
+57 silly install resolved       [Object], [Object], [Object], [Object],
+57 silly install resolved       [Object], [Object], [Object], [Object],
+57 silly install resolved       [Object], [Object]
+57 silly install resolved     ],
+57 silly install resolved     homepage: 'https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node',
+57 silly install resolved     dist: {
+57 silly install resolved       shasum: 'df9ea358c5ed991266becc3109dc2dc9125d77e4',
+57 silly install resolved       tarball: 'https://registry.npmjs.org/@types/node/-/node-22.13.10.tgz',
+57 silly install resolved       fileCount: 76,
+57 silly install resolved       integrity: 'sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw==',
+57 silly install resolved       signatures: [Array],
+57 silly install resolved       unpackedSize: 2314991
+57 silly install resolved     },
+57 silly install resolved     main: '',
+57 silly install resolved     types: 'index.d.ts',
+57 silly install resolved     scripts: {},
+57 silly install resolved     _npmUser: { name: 'types', email: 'ts-npm-types@microsoft.com' },
+57 silly install resolved     repository: {
+57 silly install resolved       url: 'https://github.com/DefinitelyTyped/DefinitelyTyped.git',
+57 silly install resolved       type: 'git',
+57 silly install resolved       directory: 'types/node'
+57 silly install resolved     },
+57 silly install resolved     description: 'TypeScript definitions for node',
+57 silly install resolved     directories: {},
+57 silly install resolved     dependencies: { 'undici-types': '~6.20.0' },
+57 silly install resolved     typesVersions: { '<=5.6': [Object] },
+57 silly install resolved     _hasShrinkwrap: false,
+57 silly install resolved     peerDependencies: {},
+57 silly install resolved     typeScriptVersion: '5.0',
+57 silly install resolved     _npmOperationalInternal: {
+57 silly install resolved       tmp: 'tmp/node_22.13.10_1741417388654_0.9454095233897728',
+57 silly install resolved       host: 's3://npm-registry-packages-npm-production'
+57 silly install resolved     },
+57 silly install resolved     typesPublisherContentHash: '25fcca4abf7a12f9be2302bc659011d734e5385c4d6aa230045dc3f241321494',
+57 silly install resolved     _shasum: 'df9ea358c5ed991266becc3109dc2dc9125d77e4',
+57 silly install resolved     _resolved: 'https://registry.npmjs.org/@types/node/-/node-22.13.10.tgz',
+57 silly install resolved     _from: '@types/node@latest'
+57 silly install resolved   }
+57 silly install resolved ]
+58 info install @types/node@22.13.10 into C:\Users\ayesh\Desktop\Anaconda\API
+59 info installOne @types/node@22.13.10
+60 verbose installOne of @types/node to C:\Users\ayesh\Desktop\Anaconda\API not in flight; installing
+61 verbose correctMkdir C:\Users\ayesh\AppData\Local\npm-cache\_locks correctMkdir not in flight; initializing
+62 verbose lock using C:\Users\ayesh\AppData\Local\npm-cache\_locks\types-node-529b3a01d171f208.lock for C:\Users\ayesh\Desktop\Anaconda\API\node_modules\@types\node
+63 silly install write writing @types/node 22.13.10 to C:\Users\ayesh\Desktop\Anaconda\API\node_modules\@types\node
+64 verbose unbuild node_modules\@types\node
+65 silly gentlyRm C:\Users\ayesh\Desktop\Anaconda\API\node_modules\@types\node is being purged from base C:\Users\ayesh\Desktop\Anaconda\API
+66 verbose gentlyRm don't care about contents; nuking C:\Users\ayesh\Desktop\Anaconda\API\node_modules\@types\node
+67 verbose tar unpack C:\Users\ayesh\AppData\Local\npm-cache\@types\node\22.13.10\package.tgz
+68 verbose tar unpacking to C:\Users\ayesh\Desktop\Anaconda\API\node_modules\@types\node
+69 silly gentlyRm C:\Users\ayesh\Desktop\Anaconda\API\node_modules\@types\node is being purged
+70 verbose gentlyRm don't care about contents; nuking C:\Users\ayesh\Desktop\Anaconda\API\node_modules\@types\node
+71 silly gunzTarPerm modes [ '777', '666' ]
+72 silly gunzTarPerm extractEntry
+73 silly gunzTarPerm modified mode [ '', 493, 511 ]
+74 silly gunzTarPerm extractEntry
+75 silly gunzTarPerm modified mode [ '', 420, 438 ]
+76 silly gunzTarPerm extractEntry
+77 silly gunzTarPerm modified mode [ '', 420, 438 ]
+78 silly gunzTarPerm extractEntry
+79 silly gunzTarPerm modified mode [ '', 493, 511 ]
+80 silly gunzTarPerm extractEntry
+81 silly gunzTarPerm modified mode [ '', 420, 438 ]
+82 silly gunzTarPerm extractEntry
+83 silly gunzTarPerm modified mode [ '', 420, 438 ]
+84 silly gunzTarPerm extractEntry
+85 silly gunzTarPerm modified mode [ '', 420, 438 ]
+86 silly gunzTarPerm extractEntry
+87 silly gunzTarPerm modified mode [ '', 420, 438 ]
+88 silly gunzTarPerm extractEntry
+89 silly gunzTarPerm modified mode [ '', 420, 438 ]
+90 silly gunzTarPerm extractEntry
+91 silly gunzTarPerm modified mode [ '', 420, 438 ]
+92 silly gunzTarPerm extractEntry
+93 silly gunzTarPerm modified mode [ '', 493, 511 ]
+94 silly gunzTarPerm extractEntry
+95 silly gunzTarPerm modified mode [ '', 420, 438 ]
+96 silly gunzTarPerm extractEntry
+97 silly gunzTarPerm modified mode [ '', 420, 438 ]
+98 silly gunzTarPerm extractEntry
+99 silly gunzTarPerm modified mode [ '', 420, 438 ]
+100 silly gunzTarPerm extractEntry
+101 silly gunzTarPerm modified mode [ '', 420, 438 ]
+102 silly gunzTarPerm extractEntry
+103 silly gunzTarPerm modified mode [ '', 420, 438 ]
+104 silly gunzTarPerm extractEntry
+105 silly gunzTarPerm modified mode [ '', 493, 511 ]
+106 silly gunzTarPerm extractEntry
+107 silly gunzTarPerm modified mode [ '', 420, 438 ]
+108 silly gunzTarPerm extractEntry
+109 silly gunzTarPerm modified mode [ '', 420, 438 ]
+110 silly gunzTarPerm extractEntry
+111 silly gunzTarPerm modified mode [ '', 420, 438 ]
+112 silly gunzTarPerm extractEntry
+113 silly gunzTarPerm modified mode [ '', 420, 438 ]
+114 silly gunzTarPerm extractEntry
+115 silly gunzTarPerm modified mode [ '', 493, 511 ]
+116 silly gunzTarPerm extractEntry
+117 silly gunzTarPerm modified mode [ '', 420, 438 ]
+118 silly gunzTarPerm extractEntry
+119 silly gunzTarPerm modified mode [ '', 420, 438 ]
+120 silly gunzTarPerm extractEntry
+121 silly gunzTarPerm modified mode [ '', 420, 438 ]
+122 silly gunzTarPerm extractEntry
+123 silly gunzTarPerm modified mode [ '', 420, 438 ]
+124 silly gunzTarPerm extractEntry
+125 silly gunzTarPerm modified mode [ '', 420, 438 ]
+126 silly gunzTarPerm extractEntry
+127 silly gunzTarPerm modified mode [ '', 420, 438 ]
+128 silly gunzTarPerm extractEntry
+129 silly gunzTarPerm modified mode [ '', 420, 438 ]
+130 silly gunzTarPerm extractEntry
+131 silly gunzTarPerm modified mode [ '', 420, 438 ]
+132 silly gunzTarPerm extractEntry
+133 silly gunzTarPerm modified mode [ '', 420, 438 ]
+134 silly gunzTarPerm extractEntry
+135 silly gunzTarPerm modified mode [ '', 420, 438 ]
+136 silly gunzTarPerm extractEntry
+137 silly gunzTarPerm modified mode [ '', 420, 438 ]
+138 silly gunzTarPerm extractEntry
+139 silly gunzTarPerm modified mode [ '', 420, 438 ]
+140 silly gunzTarPerm extractEntry
+141 silly gunzTarPerm modified mode [ '', 420, 438 ]
+142 silly gunzTarPerm extractEntry
+143 silly gunzTarPerm modified mode [ '', 420, 438 ]
+144 silly gunzTarPerm extractEntry
+145 silly gunzTarPerm modified mode [ '', 420, 438 ]
+146 silly gunzTarPerm extractEntry
+147 silly gunzTarPerm modified mode [ '', 420, 438 ]
+148 silly gunzTarPerm extractEntry
+149 silly gunzTarPerm modified mode [ '', 420, 438 ]
+150 silly gunzTarPerm extractEntry
+151 silly gunzTarPerm modified mode [ '', 493, 511 ]
+152 silly gunzTarPerm extractEntry
+153 silly gunzTarPerm modified mode [ '', 420, 438 ]
+154 silly gunzTarPerm extractEntry
+155 silly gunzTarPerm modified mode [ '', 420, 438 ]
+156 silly gunzTarPerm extractEntry
+157 silly gunzTarPerm modified mode [ '', 420, 438 ]
+158 silly gunzTarPerm extractEntry
+159 silly gunzTarPerm modified mode [ '', 420, 438 ]
+160 silly gunzTarPerm extractEntry
+161 silly gunzTarPerm modified mode [ '', 493, 511 ]
+162 silly gunzTarPerm extractEntry
+163 silly gunzTarPerm modified mode [ '', 420, 438 ]
+164 silly gunzTarPerm extractEntry
+165 silly gunzTarPerm modified mode [ '', 420, 438 ]
+166 silly gunzTarPerm extractEntry
+167 silly gunzTarPerm modified mode [ '', 420, 438 ]
+168 silly gunzTarPerm extractEntry
+169 silly gunzTarPerm modified mode [ '', 493, 511 ]
+170 silly gunzTarPerm extractEntry
+171 silly gunzTarPerm modified mode [ '', 420, 438 ]
+172 silly gunzTarPerm extractEntry
+173 silly gunzTarPerm modified mode [ '', 420, 438 ]
+174 silly gunzTarPerm extractEntry
+175 silly gunzTarPerm modified mode [ '', 420, 438 ]
+176 silly gunzTarPerm extractEntry
+177 silly gunzTarPerm modified mode [ '', 493, 511 ]
+178 silly gunzTarPerm extractEntry
+179 silly gunzTarPerm modified mode [ '', 420, 438 ]
+180 silly gunzTarPerm extractEntry
+181 silly gunzTarPerm modified mode [ '', 420, 438 ]
+182 silly gunzTarPerm extractEntry
+183 silly gunzTarPerm modified mode [ '', 420, 438 ]
+184 silly gunzTarPerm extractEntry
+185 silly gunzTarPerm modified mode [ '', 420, 438 ]
+186 silly gunzTarPerm extractEntry
+187 silly gunzTarPerm modified mode [ '', 420, 438 ]
+188 silly gunzTarPerm extractEntry
+189 silly gunzTarPerm modified mode [ '', 420, 438 ]
+190 silly gunzTarPerm extractEntry
+191 silly gunzTarPerm modified mode [ '', 420, 438 ]
+192 silly gunzTarPerm extractEntry
+193 silly gunzTarPerm modified mode [ '', 420, 438 ]
+194 silly gunzTarPerm extractEntry
+195 silly gunzTarPerm modified mode [ '', 420, 438 ]
+196 silly gunzTarPerm extractEntry
+197 silly gunzTarPerm modified mode [ '', 420, 438 ]
+198 silly gunzTarPerm extractEntry
+199 silly gunzTarPerm modified mode [ '', 420, 438 ]
+200 silly gunzTarPerm extractEntry
+201 silly gunzTarPerm modified mode [ '', 420, 438 ]
+202 silly gunzTarPerm extractEntry
+203 silly gunzTarPerm modified mode [ '', 420, 438 ]
+204 silly gunzTarPerm extractEntry
+205 silly gunzTarPerm modified mode [ '', 420, 438 ]
+206 silly gunzTarPerm extractEntry
+207 silly gunzTarPerm modified mode [ '', 420, 438 ]
+208 silly gunzTarPerm extractEntry
+209 silly gunzTarPerm modified mode [ '', 420, 438 ]
+210 silly gunzTarPerm extractEntry
+211 silly gunzTarPerm modified mode [ '', 420, 438 ]
+212 silly gunzTarPerm extractEntry
+213 silly gunzTarPerm modified mode [ '', 420, 438 ]
+214 silly gunzTarPerm extractEntry
+215 silly gunzTarPerm modified mode [ '', 420, 438 ]
+216 silly gunzTarPerm extractEntry
+217 silly gunzTarPerm modified mode [ '', 420, 438 ]
+218 silly gunzTarPerm extractEntry
+219 silly gunzTarPerm modified mode [ '', 420, 438 ]
+220 silly gunzTarPerm extractEntry
+221 silly gunzTarPerm modified mode [ '', 420, 438 ]
+222 silly gunzTarPerm extractEntry
+223 silly gunzTarPerm modified mode [ '', 420, 438 ]
+224 verbose unlock done using C:\Users\ayesh\AppData\Local\npm-cache\_locks\types-node-529b3a01d171f208.lock for C:\Users\ayesh\Desktop\Anaconda\API\node_modules\@types\node
+225 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\ayesh\Desktop\Anaconda\API\node_modules\@types\node\package.json'
+226 verbose cwd C:\Users\ayesh\Desktop\Anaconda\API
+227 error Windows_NT 10.0.22631
+228 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\ayesh\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "@types/node"
+229 error node v18.20.5
+230 error npm  v2.15.12
+231 error path C:\Users\ayesh\Desktop\Anaconda\API\node_modules\@types\node\package.json
+232 error code ENOTDIR
+233 error errno -4058
+234 error syscall open
+235 error ENOENT: no such file or directory, open 'C:\Users\ayesh\Desktop\Anaconda\API\node_modules\@types\node\package.json'
+236 error If you need help, you may report this error at:
+236 error     <https://github.com/npm/npm/issues>
+237 verbose exit [ -4058, true ]
+238 verbose unbuild node_modules\@types\node
+239 silly gentlyRm C:\Users\ayesh\Desktop\Anaconda\API\node_modules\@types\node is being purged from base C:\Users\ayesh\Desktop\Anaconda\API
+240 verbose gentlyRm don't care about contents; nuking C:\Users\ayesh\Desktop\Anaconda\API\node_modules\@types\node
+241 silly vacuum-fs purging C:\Users\ayesh\Desktop\Anaconda\API\node_modules\@types\node
+242 silly vacuum-fs removing C:\Users\ayesh\Desktop\Anaconda\API\node_modules\@types
+243 silly vacuum-fs quitting because other entries in C:\Users\ayesh\Desktop\Anaconda\API\node_modules
